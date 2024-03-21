@@ -1,0 +1,34 @@
+1
+valid email
+invalid email
+invalid email
+x
+2
+valid phone number
+valid phone number
+valid phone number
+invalid phone number
+invalid phone number
+x
+3
+valid date
+invalid date
+invalid date
+x
+4
+valid IP address
+invalid IP address
+x
+5
+valid c++ variable name
+valid c++ variable name
+valid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+x
+5
+invalid string, has 3 consecutive b's
+invalid string, has 3 consecutive b's
+valid string
+x

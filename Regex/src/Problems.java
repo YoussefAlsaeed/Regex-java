@@ -129,26 +129,26 @@ public class Problems {
 	
 	public String problem6(BufferedReader reader) throws IOException
 	{
-		String line;
-		String res="";
-		res+="5\n";
-		Pattern pt = Pattern.compile("bbb", Pattern.CASE_INSENSITIVE);
-		while(!(line = reader.readLine()).equals("end") )
-		{
-			System.out.println(line);
-			Matcher matcher = pt.matcher(line);
-			if(matcher.find())
-			{
-				res += "invalid string, has 3 consecutive b's\n";
-			}
-			else
-			{
-				res += "valid string\n";
-			}
-				
-		}
-		res += "x\n";
-		return res;
+	    String line;
+	    String res="";
+	    res+="5\n";
+	    Pattern pt = Pattern.compile("^(?!.*bbb).*$", Pattern.CASE_INSENSITIVE);
+	    while(!(line = reader.readLine()).equals("end") )
+	    {
+	        System.out.println(line);
+	        Matcher matcher = pt.matcher(line);
+	        if(matcher.find())
+	        {
+	            res += "valid string\n";
+	        }
+	        else
+	        {
+	            res += "invalid string, has 3 consecutive b's\n";
+	        }
+	            
+	    }
+	    res += "x\n";
+	    return res;
 	}
 	
 	public String problem7(BufferedReader reader) throws IOException
