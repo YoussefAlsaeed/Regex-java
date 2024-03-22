@@ -1,5 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -131,7 +133,7 @@ public class Problems {
 	{
 	    String line;
 	    String res="";
-	    res+="5\n";
+	    res+="6\n";
 	    Pattern pt = Pattern.compile("^(?!.*bbb).*$", Pattern.CASE_INSENSITIVE);
 	    while(!(line = reader.readLine()).equals("end") )
 	    {
@@ -151,14 +153,78 @@ public class Problems {
 	    return res;
 	}
 	
-	public String problem7(BufferedReader reader) throws IOException
-	{
-		
+	public String problem7(BufferedReader reader) throws IOException {
+	    String line;
+	    String res = "7\n";
+	    Pattern pt = Pattern.compile("(aa|bb)*(ab|ba)(((aa|bb)*(ab|ba)(aa|bb)*(ab|ba)))*(aa|bb)*");
+
+	    while (!(line = reader.readLine()).equals("end")) {
+	        res += "*" + line + "*\n";
+	        Matcher matcher = pt.matcher(line);
+	        List<String> matches = new ArrayList<>();
+	        List<Integer> starts = new ArrayList<>();
+	        List<Integer> ends = new ArrayList<>();
+	        int matchCount = 0;
+
+	        while (matcher.find()) {
+	            matchCount++;
+	            matches.add(matcher.group());
+	            starts.add(matcher.start());
+	            ends.add(matcher.end());
+	        }
+
+	        if (matchCount > 0) {
+	            res += "number of matched substrings: " + matchCount + "\n";
+	        }
+
+	        for (int i = 0; i < matches.size(); i++) {
+	            res += "matched substring: " + matches.get(i) + "\n";
+	            res += "start index: " + starts.get(i) + ", end index: " + ends.get(i) + "\n";
+	        }
+	    }
+	    res += "x\n";
+	    return res;
 	}
+
+
+
 	
 	public String problem8(BufferedReader reader) throws IOException
 	{
-		
+	    String line;
+	    String res = "8\n";
+	    Pattern pt = Pattern.compile("\\b\\w{3}\\b");
+
+	    while (!(line = reader.readLine()).equals("end")) {
+	        res += "*" + line + "*\n";
+	        Matcher matcher = pt.matcher(line);
+	        List<String> matches = new ArrayList<>();
+	        List<Integer> starts = new ArrayList<>();
+	        List<Integer> ends = new ArrayList<>();
+	        int matchCount = 0;
+
+	        while (matcher.find()) {
+	            matchCount++;
+	            matches.add(matcher.group());
+	            starts.add(matcher.start());
+	            ends.add(matcher.end());
+	        }
+
+	        if (matchCount > 0) {
+	            res += "number of matched words: " + matchCount + "\n";
+	        }
+	        else
+	        {
+	        	res+= "No word matches\n";
+	        }
+
+	        for (int i = 0; i < matches.size(); i++) {
+	            res += "matched word: " + matches.get(i) + "\n";
+	            res += "start index: " + starts.get(i) + ", end index: " + ends.get(i) + "\n";
+	        }
+	    }
+	    res += "x\n";
+	    return res;
 	}
 	
 	public String problem9(BufferedReader reader) throws IOException

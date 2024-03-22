@@ -27,8 +27,511 @@ invalid c++ variable name
 invalid c++ variable name
 invalid c++ variable name
 x
-5
+6
 invalid string, has 3 consecutive b's
 invalid string, has 3 consecutive b's
 valid string
+x
+7
+*aabb*number of matched substrings: 9
+matched substring: ab
+start index: 1, end index: 3
+*aabaaaaabaa*number of matched substrings: 9
+matched substring: aabaaaaa
+start index: 0, end index: 8
+number of matched substrings: 9
+matched substring: ba
+start index: 8, end index: 10
+x
+1
+valid email
+invalid email
+invalid email
+x
+2
+valid phone number
+valid phone number
+valid phone number
+invalid phone number
+invalid phone number
+x
+3
+valid date
+invalid date
+invalid date
+x
+4
+valid IP address
+invalid IP address
+x
+5
+valid c++ variable name
+valid c++ variable name
+valid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+x
+6
+invalid string, has 3 consecutive b's
+invalid string, has 3 consecutive b's
+valid string
+x
+7
+*aabb*
+number of matched substrings: 9
+matched substring: ab
+start index: 1, end index: 3
+*aabaaaaabaa*
+number of matched substrings: 9
+matched substring: aabaaaaa
+start index: 0, end index: 8
+number of matched substrings: 9
+matched substring: ba
+start index: 8, end index: 10
+x
+1
+valid email
+invalid email
+invalid email
+x
+2
+valid phone number
+valid phone number
+valid phone number
+invalid phone number
+invalid phone number
+x
+3
+valid date
+invalid date
+invalid date
+x
+4
+valid IP address
+invalid IP address
+x
+5
+valid c++ variable name
+valid c++ variable name
+valid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+x
+6
+invalid string, has 3 consecutive b's
+invalid string, has 3 consecutive b's
+valid string
+x
+7
+*aabb*
+matched substring: ab
+start index: 1, end index: 3
+number of matched substrings: 1
+*aabaaaaabaa*
+matched substring: aabaaaaa
+start index: 0, end index: 8
+matched substring: ba
+start index: 8, end index: 10
+number of matched substrings: 2
+x
+1
+valid email
+invalid email
+invalid email
+x
+2
+valid phone number
+valid phone number
+valid phone number
+invalid phone number
+invalid phone number
+x
+3
+valid date
+invalid date
+invalid date
+x
+4
+valid IP address
+invalid IP address
+x
+5
+valid c++ variable name
+valid c++ variable name
+valid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+x
+6
+invalid string, has 3 consecutive b's
+invalid string, has 3 consecutive b's
+valid string
+x
+7
+*aabb*
+number of matched substrings: 1
+matched substring: ab
+start index: 1, end index: 3
+*aabaaaaabaa*
+number of matched substrings: 1
+matched substring: aabaaaaa
+start index: 0, end index: 8
+number of matched substrings: 2
+matched substring: ba
+start index: 8, end index: 10
+x
+1
+valid email
+invalid email
+invalid email
+x
+2
+valid phone number
+valid phone number
+valid phone number
+invalid phone number
+invalid phone number
+x
+3
+valid date
+invalid date
+invalid date
+x
+4
+valid IP address
+invalid IP address
+x
+5
+valid c++ variable name
+valid c++ variable name
+valid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+x
+6
+invalid string, has 3 consecutive b's
+invalid string, has 3 consecutive b's
+valid string
+x
+7
+*aabb*
+matched substring: ab
+start index: 1, end index: 3
+number of matched substrings: 1
+*aabaaaaabaa*
+matched substring: aabaaaaa
+start index: 0, end index: 8
+matched substring: ba
+start index: 8, end index: 10
+number of matched substrings: 2
+x
+1
+valid email
+invalid email
+invalid email
+x
+2
+valid phone number
+valid phone number
+valid phone number
+invalid phone number
+invalid phone number
+x
+3
+valid date
+invalid date
+invalid date
+x
+4
+valid IP address
+invalid IP address
+x
+5
+valid c++ variable name
+valid c++ variable name
+valid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+x
+6
+invalid string, has 3 consecutive b's
+invalid string, has 3 consecutive b's
+valid string
+x
+7
+*aabb*
+number of matched substrings: 1
+matched substring: ab
+start index: 1, end index: 3
+*aabaaaaabaa*
+number of matched substrings: 2
+matched substring: aabaaaaa
+start index: 0, end index: 8
+number of matched substrings: 2
+matched substring: ba
+start index: 8, end index: 10
+x
+1
+valid email
+invalid email
+invalid email
+x
+2
+valid phone number
+valid phone number
+valid phone number
+invalid phone number
+invalid phone number
+x
+3
+valid date
+invalid date
+invalid date
+x
+4
+valid IP address
+invalid IP address
+x
+5
+valid c++ variable name
+valid c++ variable name
+valid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+x
+6
+invalid string, has 3 consecutive b's
+invalid string, has 3 consecutive b's
+valid string
+x
+7
+*aabb*
+number of matched substrings: 1
+matched substring: ab
+start index: 1, end index: 3
+*aabaaaaabaa*
+number of matched substrings: 2
+matched substring: aabaaaaa
+start index: 0, end index: 8
+matched substring: ba
+start index: 8, end index: 10
+x
+1
+valid email
+invalid email
+invalid email
+x
+2
+valid phone number
+valid phone number
+valid phone number
+invalid phone number
+invalid phone number
+x
+3
+valid date
+invalid date
+invalid date
+x
+4
+valid IP address
+invalid IP address
+x
+5
+valid c++ variable name
+valid c++ variable name
+valid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+x
+6
+invalid string, has 3 consecutive b's
+invalid string, has 3 consecutive b's
+valid string
+x
+7
+*aabb*
+number of matched substrings: 1
+matched substring: ab
+start index: 1, end index: 3
+*aabaaaaabaa*
+number of matched substrings: 2
+matched substring: aabaaaaa
+start index: 0, end index: 8
+matched substring: ba
+start index: 8, end index: 10
+x
+1
+valid email
+invalid email
+invalid email
+x
+2
+valid phone number
+valid phone number
+valid phone number
+invalid phone number
+invalid phone number
+x
+3
+valid date
+invalid date
+invalid date
+x
+4
+valid IP address
+invalid IP address
+x
+5
+valid c++ variable name
+valid c++ variable name
+valid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+x
+6
+invalid string, has 3 consecutive b's
+invalid string, has 3 consecutive b's
+valid string
+x
+7
+*aabb*
+number of matched substrings: 1
+matched substring: ab
+start index: 1, end index: 3
+*aabaaaaabaa*
+number of matched substrings: 2
+matched substring: aabaaaaa
+start index: 0, end index: 8
+matched substring: ba
+start index: 8, end index: 10
+x
+7
+*The cat is cute*
+number of matched words: 2
+matched word: The
+start index: 0, end index: 3
+matched word: cat
+start index: 4, end index: 7
+*an apple*
+x
+1
+valid email
+invalid email
+invalid email
+x
+2
+valid phone number
+valid phone number
+valid phone number
+invalid phone number
+invalid phone number
+x
+3
+valid date
+invalid date
+invalid date
+x
+4
+valid IP address
+invalid IP address
+x
+5
+valid c++ variable name
+valid c++ variable name
+valid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+x
+6
+invalid string, has 3 consecutive b's
+invalid string, has 3 consecutive b's
+valid string
+x
+7
+*aabb*
+number of matched substrings: 1
+matched substring: ab
+start index: 1, end index: 3
+*aabaaaaabaa*
+number of matched substrings: 2
+matched substring: aabaaaaa
+start index: 0, end index: 8
+matched substring: ba
+start index: 8, end index: 10
+x
+7
+*The cat is cute*
+number of matched words: 2
+matched word: The
+start index: 0, end index: 3
+matched word: cat
+start index: 4, end index: 7
+*an apple*
+No word matches
+x
+1
+valid email
+invalid email
+invalid email
+x
+2
+valid phone number
+valid phone number
+valid phone number
+invalid phone number
+invalid phone number
+x
+3
+valid date
+invalid date
+invalid date
+x
+4
+valid IP address
+invalid IP address
+x
+5
+valid c++ variable name
+valid c++ variable name
+valid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+invalid c++ variable name
+x
+6
+invalid string, has 3 consecutive b's
+invalid string, has 3 consecutive b's
+valid string
+x
+7
+*aabb*
+number of matched substrings: 1
+matched substring: ab
+start index: 1, end index: 3
+*aabaaaaabaa*
+number of matched substrings: 2
+matched substring: aabaaaaa
+start index: 0, end index: 8
+matched substring: ba
+start index: 8, end index: 10
+x
+8
+*The cat is cute*
+number of matched words: 2
+matched word: The
+start index: 0, end index: 3
+matched word: cat
+start index: 4, end index: 7
+*an apple*
+No word matches
 x

@@ -31,12 +31,12 @@ public class main {
                     case "6":
                         writer.append(problem.problem6(reader));
                         break;
-//                    case "7":
-//                        writer.append(problem.problem7(reader));
-//                        break;
-//                    case "8":
-//                        writer.append(problem.problem8(reader));
-//                        break;
+                    case "7":
+                        writer.append(problem.problem7(reader));
+                        break;
+                    case "8":
+                        writer.append(problem.problem8(reader));
+                        break;
 //                    case "9":
 //                        writer.append(problem.problem9(reader));
 //                        break;
