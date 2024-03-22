@@ -229,12 +229,31 @@ public class Problems {
 	
 	public String problem9(BufferedReader reader) throws IOException
 	{
-		
+
 	}
 	
 	public String problem10(BufferedReader reader) throws IOException
 	{
-		
+	    String line;
+	    String res="";
+	    res+="10\n";
+	    Pattern pt = Pattern.compile("[\\d+.\\d*\\-/*a-z]+=[\\d+.\\d*\\-/*a-z]+", Pattern.CASE_INSENSITIVE);
+	    while(!(line = reader.readLine()).equals("end") )
+	    {
+	        System.out.println(line);
+	        Matcher matcher = pt.matcher(line);
+	        if(matcher.matches())
+	        {
+	            res += "valid mathematical expression\n";
+	        }
+	        else
+	        {
+	            res += "invalid mathematical expression\n";
+	        }
+	            
+	    }
+	    res += "x\n";
+	    return res;
 	}
 
 }

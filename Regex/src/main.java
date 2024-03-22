@@ -40,9 +40,9 @@ public class main {
 //                    case "9":
 //                        writer.append(problem.problem9(reader));
 //                        break;
-//                    case "10":
-//                        writer.append(problem.problem10(reader));
-//                        break;
+                    case "10":
+                        writer.append(problem.problem10(reader));
+                        break;
                  }
             }
             reader.close();
