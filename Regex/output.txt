@@ -12,6 +12,14 @@ invalid phone number
 x
 3
 valid date
+valid date
+valid date
+invalid date
+valid date
+valid date
+valid date
+valid date
+valid date
 invalid date
 invalid date
 x
