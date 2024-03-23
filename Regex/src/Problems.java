@@ -1,4 +1,6 @@
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -227,10 +229,46 @@ public class Problems {
 	    return res;
 	}
 	
-	public String problem9(BufferedReader reader) throws IOException
-	{
+	 public String problem9(BufferedReader reader) throws IOException {
+	        String line;
+	        String res = "9\n";
+	        List<String> filePaths = new ArrayList<>();
 
-	}
+	        while (!(line = reader.readLine()).equals("end")) {
+	            filePaths.add(line);
+	        }
+
+	        for (String filePath : filePaths) {
+	        	File file = new File(filePath);
+	            res += "*" + file.getName() + "*\n";
+	            BufferedReader fileReader = new BufferedReader(new FileReader(filePath));
+	            List<String> urls = new ArrayList<>();
+	            int totalUrls = 0;
+	            int lineNumber = 0;
+	            Pattern urlPattern = Pattern.compile("https?://\\S*[a-zA-Z/\\d]");
+	            while ((line = fileReader.readLine()) != null) {
+	                lineNumber++;
+	                Matcher matcher = urlPattern.matcher(line);
+	                while (matcher.find()) {
+	                    totalUrls++;
+	                    String url = matcher.group();
+	                    urls.add("URL: " + url + "\n" +
+	                             "Line: " + lineNumber + "\n" +
+	                             "start index: " + matcher.start() + ", end index: " + matcher.end() + "\n");
+	                }
+	            }
+	            fileReader.close();
+	            res += "Number of URLs: " + totalUrls + "\n";
+
+	            for (String urlInfo : urls) {
+	                res += urlInfo;
+	            }
+	            
+	        }
+	        res += "x\n";
+	        return res;
+	    }
+
 	
 	public String problem10(BufferedReader reader) throws IOException
 	{

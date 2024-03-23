@@ -37,9 +37,9 @@ public class main {
                     case "8":
                         writer.append(problem.problem8(reader));
                         break;
-//                    case "9":
-//                        writer.append(problem.problem9(reader));
-//                        break;
+                    case "9":
+                        writer.append(problem.problem9(reader));
+                        break;
                     case "10":
                         writer.append(problem.problem10(reader));
                         break;
