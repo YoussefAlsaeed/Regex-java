@@ -237,7 +237,7 @@ public class Problems {
 	    String line;
 	    String res="";
 	    res+="10\n";
-	    Pattern pt = Pattern.compile("[\\d+.\\d*\\-/*a-z]+=[\\d+.\\d*\\-/*a-z]+", Pattern.CASE_INSENSITIVE);
+	    Pattern pt = Pattern.compile("((\\d+(\\.\\d*)?|[a-z])([+-/*]{1,2})?)+=((\\d+(\\.\\d*)?|[a-z])([+-/*]{1,2})?)+", Pattern.CASE_INSENSITIVE);
 	    while(!(line = reader.readLine()).equals("end") )
 	    {
 	        System.out.println(line);
