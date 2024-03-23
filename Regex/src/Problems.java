@@ -39,7 +39,7 @@ public class Problems {
 		String line;
 		String res="";
 		res+="2\n";
-		Pattern pt = Pattern.compile("\\(?\\d{3}\\)?[-.\\s]?\\d{3}[-.\\s]?\\d{4}");
+		Pattern pt = Pattern.compile("(\\(\\d{3}\\)|\\d{3})([-.\\s]?)\\d{3}\\2\\d{4}");
 		while(!(line = reader.readLine()).equals("end") )
 		{
 			System.out.println(line);
@@ -63,7 +63,7 @@ public class Problems {
 		String line;
 		String res="";
 		res+="3\n";
-		Pattern pt = Pattern.compile("\\d{1,4}[-\\/]\\d{1,2}[-\\/]\\d{1,4}");
+		Pattern pt = Pattern.compile("\\d{1,4}([-\\/])\\d{1,2}\\1\\d{1,4}");
 		while(!(line = reader.readLine()).equals("end") )
 		{
 			System.out.println(line);
